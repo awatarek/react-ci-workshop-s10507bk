@@ -1,9 +1,9 @@
 # React CI Workshop
 
-![CI](https://github.com/TWOJ_USERNAME/react-ci-workshop/actions/workflows/ci.yml/badge.svg)
-![Deploy](https://github.com/TWOJ_USERNAME/react-ci-workshop/actions/workflows/deploy.yml/badge.svg)
+![CI](https://github.com/awatarek/react-ci-workshop-s10507bk/actions/workflows/ci.yml/badge.svg)
+![Deploy](https://github.com/awatarek/react-ci-workshop-s10507bk/actions/workflows/deploy.yml/badge.svg)
 
-[🚀 Live Demo](https://TWOJ_USERNAME.github.io/react-ci-workshop/)
+[🚀 Live Demo](https://awatarek.github.io/react-ci-workshop-s10507bk/)
 
 Aplikacja React z automatycznym CI/CD przez GitHub Actions.
 
