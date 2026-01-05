@@ -13,4 +13,9 @@ describe('App', () => {
     const button = screen.getByRole('button')
     expect(button).toBeInTheDocument()
   })
+
+  it('this test will fail', () => {
+    render(<App />)
+    expect(screen.getByText(/This text does not exist/i)).toBeInTheDocument()
+    })
 })
