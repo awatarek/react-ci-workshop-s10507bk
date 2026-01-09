@@ -9,8 +9,14 @@ describe('App', () => {
     expect(button).toBeInTheDocument()
   })
 
+  it('this test will fail', () => {
+    render(<App />)
+    expect(screen.getByText(/This text does not exist/i)).toBeInTheDocument()
+  })
+
   it('has custom title', () => {
     render(<App />)
     expect(screen.getByText(/Moja Aplikacja React/i)).toBeInTheDocument()
+
     })
 })
